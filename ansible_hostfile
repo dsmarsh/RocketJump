@@ -1,0 +1,28 @@
+# Created by Topology-Converter v4.5.1
+#    https://github.com/cumulusnetworks/topology_converter
+#    using topology data from: ../files/var/topology.dot
+
+[oob-switch]
+oob
+
+[spine]
+spine01
+spine02
+
+[leaf]
+leaf01
+leaf02
+leaf03
+leaf04
+leaf01
+leaf02
+
+[host]
+server01
+server03
+server02
+server04
+
+[network:children]
+spine
+leaf

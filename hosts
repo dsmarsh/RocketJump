@@ -1,0 +1,26 @@
+127.0.0.1 localhost
+127.0.1.1 mgmt
+
+
+192.169.0.254 mgmt
+
+
+192.169.0.1 oob
+192.169.0.21 spine01
+192.169.0.22 spine02
+192.169.0.11 leaf01
+192.169.0.12 leaf02
+192.169.0.13 leaf03
+192.169.0.14 leaf04
+192.169.0.41 leaf05
+192.169.0.42 leaf06
+192.169.0.31 server01
+192.169.0.32 server02
+192.169.0.33 server03
+192.169.0.34 server04
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
