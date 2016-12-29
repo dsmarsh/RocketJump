@@ -3,17 +3,8 @@
 # Enable passwordless sudo for cumulus user
 echo "cumulus ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/10_cumulus
 
-cat <<EOT > /etc/network/interfaces
-auto eth0
-iface eth0
-  vrf mgmt
-
-auto mgmt
-iface mgmt
-  address 127.0.0.1/8
-  vrf-table auto
-EOT
-service networking restart
+net add int eth0 vrf mgmt
+net commit
 
 SSH_URL="http://192.168.0.254/authorized_keys"
 #Setup SSH key authentication for Ansible
