@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     device.vm.box_version = "3.2.0"
     device.vm.provider "virtualbox" do |v|
       v.name = "mgmt"
-      v.memory = 512
+      v.memory = 1024
     end
 
     # Shorten Boot Process - Applies to Ubuntu Only - remove \"Wait for Network\"

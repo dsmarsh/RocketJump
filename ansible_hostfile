@@ -1,7 +1,3 @@
-# Created by Topology-Converter v4.5.1
-#    https://github.com/cumulusnetworks/topology_converter
-#    using topology data from: ../files/var/topology.dot
-
 [oob-switch]
 oob
 
