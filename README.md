@@ -26,9 +26,10 @@
  - ztp.sh
   - passwordless sudo
   - pre-automation /etc/network/interfaces
-  - 
  - dhcpd.conf
-  -
+  - ips
+  - hostnames
+  - ztp file Locations
 
 #### Copy the license string into the license file on the mgmt server.
 - Use nano or vim to edit the only line in the cumulus.lic file
