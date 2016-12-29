@@ -51,7 +51,8 @@
 ## Check configuration
 #### Apache Hosted
 - Check apache hosted files
- - ```
+ -
+ ```
 root@mgmt:/home/vagrant# ls -alth /var/www/html/
 total 20K
 drwxr-xr-x 1 root root  92 Dec 29 03:25 .
@@ -62,7 +63,8 @@ drwxr-xr-x 1 root root  92 Dec 29 03:25 .
 drwxr-xr-x 1 root root   8 Dec 29 03:25 ..
 ```
 - Check DHCP config
- - ```
+ -
+ ```
 root@mgmt:/home/vagrant# ls -alth /etc/dhcp/
 total 8.0K
 -rwxr-xr-x 1 root root 4.0K Dec 29 03:25 dhcpd.conf
