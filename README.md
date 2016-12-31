@@ -1,4 +1,15 @@
 # Laptop Management Server for Initial Configuration
+This repo can be used to create a mgmt station configured with:
+- DHCP
+- ZTP - basic shell script
+- ansible hosts
+- /etc/hosts
+
+Just edit the files with your environment. plug in the laptop to the eth0 OOB network, and do the following from the RocketJump directory:
+- `vagrant up`
+- choose which device is connected to the eth0 OOB network
+- `vagrant ssh mgmt`
+
 
 ## Install Instructions
 
